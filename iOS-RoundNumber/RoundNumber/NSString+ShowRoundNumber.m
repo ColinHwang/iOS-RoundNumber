@@ -25,7 +25,7 @@
     return [NSString stringFromNumber:decimalNumber fractionDigits:scale];
 }
 
-+ (NSString *)stringFromFloat:(float)value roundingScale:(short)scale roundingModel:(NSRoundingMode)mode fractionDigits:(NSUInteger)fractionDigits
++ (NSString *)stringFromFloat:(float)value roundingScale:(short)scale roundingMode:(NSRoundingMode)mode fractionDigits:(NSUInteger)fractionDigits
 {
     NSDecimalNumber *decimalNumber = [NSDecimalNumber decimalNumberWithFloat:value roundingScale:scale roundingMode:mode];
     return [NSString stringFromNumber:decimalNumber fractionDigits:fractionDigits];
@@ -45,7 +45,7 @@
     return [NSString stringFromNumber:decimalNumber fractionDigits:scale];
 }
 
-+ (NSString *)stringFromDouble:(float)value roundingScale:(short)scale roundingModel:(NSRoundingMode)mode fractionDigits:(NSUInteger)fractionDigits
++ (NSString *)stringFromDouble:(float)value roundingScale:(short)scale roundingMode:(NSRoundingMode)mode fractionDigits:(NSUInteger)fractionDigits
 {
     NSDecimalNumber *decimalNumber = [NSDecimalNumber decimalNumberWithDouble:value roundingScale:scale roundingMode:mode];
     return [NSString stringFromNumber:decimalNumber fractionDigits:fractionDigits];

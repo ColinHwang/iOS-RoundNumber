@@ -37,7 +37,7 @@
  *  @param mode           The rounding mode to use. There are four possible values: NSRoundUp, NSRoundDown, NSRoundPlain, and NSRoundBankers.
  *  @param fractionDigits The number of digits after the decimal separator allowed as input and output by the receiver.
  */
-+ (NSString *)stringFromFloat:(float)value roundingScale:(short)scale roundingModel:(NSRoundingMode)mode fractionDigits:(NSUInteger)fractionDigits;
++ (NSString *)stringFromFloat:(float)value roundingScale:(short)scale roundingMode:(NSRoundingMode)mode fractionDigits:(NSUInteger)fractionDigits;
 
 /**
  *  Return a string from the provided double value. The double value is plain rounded in the way specified by scale. The rounded value could be padded by zero to conform fraction digits to the scale.
@@ -66,7 +66,7 @@
  *  @param mode           The rounding mode to use. There are four possible values: NSRoundUp, NSRoundDown, NSRoundPlain, and NSRoundBankers.
  *  @param fractionDigits The number of digits after the decimal separator allowed as input and output by the receiver.
  */
-+ (NSString *)stringFromDouble:(float)value roundingScale:(short)scale roundingModel:(NSRoundingMode)mode fractionDigits:(NSUInteger)fractionDigits;
++ (NSString *)stringFromDouble:(float)value roundingScale:(short)scale roundingMode:(NSRoundingMode)mode fractionDigits:(NSUInteger)fractionDigits;
 
 /**
  *  Returns a string containing the fraction digits of the provided number object.

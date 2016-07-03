@@ -102,7 +102,7 @@
     
     numberString = [NSString stringFromFloat:value roundingScale:2 fractionDigitsPadded:YES];
 //    numberString = [NSString stringFromFloat:value roundingScale:2 roundingMode:NSRoundDown fractionDigitsPadded:YES];
-//    numberString = [NSString stringFromFloat:value roundingScale:2 roundingModel:NSRoundDown fractionDigits:3];
+//    numberString = [NSString stringFromFloat:value roundingScale:2 roundingMode:NSRoundDown fractionDigits:3];
     
 //    NSDecimalNumber *number = [NSDecimalNumber decimalNumberWithFloat:value roundingScale:2];
 //    numberString = [NSString stringFromNumber:number fractionDigits:3];
