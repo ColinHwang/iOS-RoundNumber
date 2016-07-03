@@ -13,6 +13,7 @@
 		3B8E63201D293BFC00F81966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E631E1D293BFC00F81966 /* Main.storyboard */; };
 		3B8E63221D293BFC00F81966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E63211D293BFC00F81966 /* Assets.xcassets */; };
 		3B8E63251D293BFC00F81966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E63231D293BFC00F81966 /* LaunchScreen.storyboard */; };
+		3B8E632F1D293C4900F81966 /* NSDecimalNumber+RoundNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E632E1D293C4900F81966 /* NSDecimalNumber+RoundNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3B8E63211D293BFC00F81966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8E63241D293BFC00F81966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B8E63261D293BFC00F81966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8E632D1D293C4900F81966 /* NSDecimalNumber+RoundNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+RoundNumber.h"; sourceTree = "<group>"; };
+		3B8E632E1D293C4900F81966 /* NSDecimalNumber+RoundNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+RoundNumber.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		3B8E63141D293BFC00F81966 /* iOS-RoundNumber */ = {
 			isa = PBXGroup;
 			children = (
+				3B8E632C1D293C1500F81966 /* RoundNumber */,
 				3B8E63181D293BFC00F81966 /* AppDelegate.h */,
 				3B8E63191D293BFC00F81966 /* AppDelegate.m */,
 				3B8E631B1D293BFC00F81966 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				3B8E63161D293BFC00F81966 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B8E632C1D293C1500F81966 /* RoundNumber */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E632D1D293C4900F81966 /* NSDecimalNumber+RoundNumber.h */,
+				3B8E632E1D293C4900F81966 /* NSDecimalNumber+RoundNumber.m */,
+			);
+			path = RoundNumber;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8E631D1D293BFC00F81966 /* ViewController.m in Sources */,
+				3B8E632F1D293C4900F81966 /* NSDecimalNumber+RoundNumber.m in Sources */,
 				3B8E631A1D293BFC00F81966 /* AppDelegate.m in Sources */,
 				3B8E63171D293BFC00F81966 /* main.m in Sources */,
 			);
