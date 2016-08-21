@@ -1,4 +1,4 @@
-# iOS-RoundNumber
+# iOS-RoundNumber [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/colinhwang/iOS-RoundNumber/master/LICENSE)&nbsp;
 Category methods of NSDecimalNumber to round number in the way specified by value, scale or rounding mode.
 
 Category methods of NSString to show round number from the provided float/double value in the way specified by scale, rounding mode or padding flag.
